@@ -1,26 +1,96 @@
-.sidebar{
+
+.logo{
+  float:left;
+}
+.menu {
+  width: 25px;
+  margin: 3%  ;
+  float: right;
+}
+
+.hide-mobile {
+  display: none;
+}
+.nav ul {
   position: fixed;
-  transition: all .5s;
-  transform: translateX(-30rem);
-  width: 30rem;
-  background-color: #f0f0f0;
+  width: 60%;
+  top: 0;
+  right: 0;
+  text-align: left;
+  background: rgb(231, 231, 231);
   height: 100%;
+  z-index: 7;
+  padding-top: 3em;
 }
-.sidebar.open{
-  transform: translateX(0);
+.nav ul li{
+    list-style: none;
 }
 
-.sidebar-close-button{
-  border-radius: 50%;
-  border: .1rem #000000 solid;
-  width: 3rem;
-  height: 3rem;
-  padding: .5rem;
-  font-size: 2rem;
-  padding-top: 0;
+.nav ul li a {
+font-size: 1.1em;
+  color: rgb(3, 3, 3);
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  padding: 1em 2em;
+  background: rgb(231, 231, 231);
+  
+}
+
+.nav ul li a:hover {
+  background-color: rgba(0, 204, 255, 0.63);
+}
+.exit-btn {
+  margin-bottom: 1em;
+  margin-top: -1.3em;
+  text-align: right;
+  padding: 0 1.4em;
+}
+.exit-btn img {
+  width: 15px;
   cursor: pointer;
-  position: absolute;
-  right: .5rem;
-  top: 1.5rem
 }
 
+@media only screen and (min-width: 800px) {
+  .header {
+    background-color: #FFE1A1;
+  }
+  .logo{
+    margin-top:1%;
+  }
+    .nav{
+      
+        float: right;
+       
+    }
+    .show-desktop {
+      display: block;
+      margin: 0 auto 13% auto;
+    }
+    .hide-desktop {
+      display: none;
+    }
+  .nav ul {
+      position: inherit;
+      width: auto;
+      background: none;
+      height: auto;
+      display: flex;
+      padding-top: 0;
+    }
+    .nav ul li {
+      float: left;
+    }
+    .nav ul li a {
+      font-size: 1.1em;
+      color:#3DC28F;
+      background-color: inherit;
+      text-align: left;
+      padding: 1em 2em;
+    }
+    .nav ul li a:hover {
+      background-color: inherit;
+      
+    }
+  
+}

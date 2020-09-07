@@ -1,0 +1,35 @@
+.about{
+    margin-top: 7em;
+    text-align: center;
+
+}
+.roundbox{
+        margin-left:10%;
+        border-radius: 25px;
+        background:#FFE1A1;
+        padding: 20px;
+        width: 300px;
+        height: 500px;
+      
+}
+@media only screen and (min-width: 850px) {
+   .aboutflex{
+       display: flex;
+   }
+   .roundbox{
+     
+    width: 800px;  
+    height: 200px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.rtext{
+    text-align:left;
+   
+    
+}
+.rtext h4{
+    margin-left: 1%;
+    
+}
+}

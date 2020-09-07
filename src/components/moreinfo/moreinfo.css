@@ -1,0 +1,66 @@
+.moreinfo{
+    margin-top:9em;
+}
+.flex{
+    margin-top:10em;
+}
+.safety{
+    margin-left: 3% ;
+}
+
+.hygene{
+    margin:-2% 0 0 3%;
+}
+.button{
+    margin-top:10%;
+}
+.packed{
+    margin:-1% 0 0 3%;
+    width: 50%;
+}
+.art{
+    margin-left:5%;
+}
+@media only screen and (min-width: 450px) {
+    .flex{
+        margin-top:12em;
+    }
+}
+@media only screen and (min-width: 520px) {
+    .moreinfo{
+        margin-top:10em;
+    }
+    .flex{
+        display: flex;
+        justify-content: space-between;
+    }
+    .illustration {
+       float: right;
+       width: 40%;
+    }
+   .two{
+    margin-left:10%;
+   }
+   .three{
+    margin-left:10%;
+   }
+}
+
+@media only screen and (min-width: 650px) {
+    .button{
+        margin:35% 0 0 2%;
+    }
+    .illustration{
+        margin-top:-5%;
+        width: 40%;
+    }
+    .items{
+        margin-left:10%
+    }
+    .art{
+        margin-left:10%
+    }
+}
+@media only screen and (min-width: 1024px) {
+   
+}
