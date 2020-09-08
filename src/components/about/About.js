@@ -18,8 +18,8 @@ function About() {
            
 
            <div>
-               <h4>It’s delivered and Rate us</h4>
-               <p>Collect groceries at your doorstep and tell us about our service</p>
+               <h4>No Minimum Order</h4>
+               <p>No order value restrictions, Order for yourself or your group</p>
                
            </div></div>
             <div>
@@ -27,8 +27,8 @@ function About() {
           
 
           <div>
-              <h4>It’s delivered and Rate us</h4>
-              <p>Collect groceries at your doorstep and tell us about our service</p>
+              <h4>Live Order Tracking</h4>
+              <p>Track your order anytime from the store to your doorstep</p>
               
           </div>
             </div>
@@ -37,8 +37,8 @@ function About() {
           
 
           <div>
-              <h4>It’s delivered and Rate us</h4>
-              <p>Collect groceries at your doorstep and tell us about our service</p>
+              <h4>24 x 7 delivery</h4>
+              <p>Order anytime, anywhere. We will get you delivered</p>
               
           </div>
           </div>

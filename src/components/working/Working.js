@@ -33,8 +33,8 @@ function Working() {
 
                 <div>
                 <img src={digit2} alt="di2" />
-                    <h3>It’s delivered and Rate us</h3>
-                    <h5>Collect groceries at your doorstep and tell us about our service</h5>
+                    <h3>Schedule and Pay</h3>
+                    <h5>Schedule the delivery at your convenient time and pay digitally</h5>
     
                 </div>
             </div>
