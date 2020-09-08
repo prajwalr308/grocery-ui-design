@@ -27,8 +27,8 @@
 }
 
 .nav ul li a {
-font-size: 1.1em;
-  color: rgb(3, 3, 3);
+font-size: 0.8em;
+  color: #3DC28F;
   text-decoration: none;
   display: block;
   width: 100%;
@@ -39,6 +39,7 @@ font-size: 1.1em;
 
 .nav ul li a:hover {
   background-color: rgba(0, 204, 255, 0.63);
+  color:white
 }
 .exit-btn {
   margin-bottom: 1em;
