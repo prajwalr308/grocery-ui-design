@@ -3,15 +3,24 @@
     text-align: center;
 
 }
+.roundbox img{
+    width: 60%;
+}
+.rtext img{
+    width: 78%;
+    margin-top: 2%;
+}
 .about p {
     font-size: 0.8em;
     width:60%;
-    margin-left:20%
+    margin-left:20%;
+  
+
 }
 .roundbox{
         margin-top:10%;
         margin-bottom: 5%;
-        margin-left:15%;
+        margin-left:18%;
         border-radius: 25px;
         background:#FFE1A1;
         padding: 20px;
@@ -20,6 +29,15 @@
       
 }
 @media only screen and (min-width: 850px) {
+    .roundbox img{
+        width: 25%;
+        margin-top:-5%;
+        z-index: 5;
+    }
+    .rtext img{
+        width: 28%;
+        margin-top: 2%;
+    }
    .aboutflex{
        display: flex;
    }
@@ -43,6 +61,15 @@
 }
 }
 @media only screen and (min-width: 1050px) {
+    .roundbox img{
+        width: 19%;
+        margin-top:-5%;
+        z-index: 5;
+    }
+    .rtext img{
+        width: 32%;
+        margin-top: 2%;
+    }
     .rtext h4{
         margin-left: -10%;
         
@@ -54,15 +81,19 @@
 }
 
 @media only screen and (min-width: 1280px) {
+    .rtext img{
+        width: 28%;
+       
+    }
     .rtext h4{
-        margin-left: -60%;
+        margin-left: -30%;
         
     }
     .rtext p{
-        margin-left: -59%;
+        margin-left: -29%;
         
     }
     .rtext img{
-        margin-left: -59%;
+        margin-left: -29%;
     }
 }

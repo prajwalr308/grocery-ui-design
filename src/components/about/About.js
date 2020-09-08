@@ -50,9 +50,9 @@ function About() {
            
 
            <div className="rtext">
-               <p>Become a Partner and start earning!</p>
+               <h4>Become a Partner and start earning!</h4>
                <p>You can login and logout whenever you want! No mandatory timings!</p>
-               <img src={partner} alt="partner" />
+               <img src={partner} alt="partner" className="partner" />
                
            </div>
             </div>
