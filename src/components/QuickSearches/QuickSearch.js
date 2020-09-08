@@ -16,11 +16,11 @@ function QuickSearch() {
             </div>
             
             <div className="flexsearch">
-            <img src={grocery} className="grocery"/><div></div>
-            <img src={vegetables} className="vegetables"/><div></div>
-            <img src={care} className="care"/><div></div>
-            <img src={home} className="home"/><div></div>
-            <img src={bevarage} className="bevarage" /><div></div>
+            <img src={grocery} alt="g" className="grocery"/><div></div>
+            <img src={vegetables} alt="v" className="vegetables"/><div></div>
+            <img src={care} alt="c" className="care"/><div></div>
+            <img src={home} alt="h" className="home"/><div></div>
+            <img src={bevarage} alt="b" className="bevarage" /><div></div>
             </div>
            
             

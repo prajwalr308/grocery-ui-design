@@ -12,33 +12,33 @@ function About() {
     return (
         <div className="about">
             <p>Why Choose Fresh Grocery</p>
-            <h1>Because we are in it together</h1>
+            <h3>Because we are in it together</h3>
             <div className="aboutflex">
-                <div><img src={box} /><div></div>
+                <div><img src={box} alt="box" /><div></div>
            
 
            <div>
-               <h2>It’s delivered and Rate us</h2>
-               <h4>Collect groceries at your doorstep and tell us about our service</h4>
+               <h4>It’s delivered and Rate us</h4>
+               <p>Collect groceries at your doorstep and tell us about our service</p>
                
            </div></div>
             <div>
-            <img src={track} /><div></div>
+            <img src={track} alt="track" /><div></div>
           
 
           <div>
-              <h2>It’s delivered and Rate us</h2>
-              <h4>Collect groceries at your doorstep and tell us about our service</h4>
+              <h4>It’s delivered and Rate us</h4>
+              <p>Collect groceries at your doorstep and tell us about our service</p>
               
           </div>
             </div>
           <div>
-          <img src={bike} /><div></div>
+          <img src={bike} alt="bike" /><div></div>
           
 
           <div>
-              <h2>It’s delivered and Rate us</h2>
-              <h4>Collect groceries at your doorstep and tell us about our service</h4>
+              <h4>It’s delivered and Rate us</h4>
+              <p>Collect groceries at your doorstep and tell us about our service</p>
               
           </div>
           </div>
@@ -46,13 +46,13 @@ function About() {
             </div>
             
             <div className="roundbox">
-            <img src={people} /><div></div>
+            <img src={people} alt="people" /><div></div>
            
 
            <div className="rtext">
-               <h2>Become a Partner and start earning!</h2>
-               <h4>You can login and logout whenever you want! No mandatory timings!</h4>
-               <img src={partner} />
+               <p>Become a Partner and start earning!</p>
+               <p>You can login and logout whenever you want! No mandatory timings!</p>
+               <img src={partner} alt="partner" />
                
            </div>
             </div>

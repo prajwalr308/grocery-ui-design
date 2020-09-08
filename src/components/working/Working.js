@@ -17,36 +17,36 @@ function Working() {
                 <h1 className="worktext">Here's how it works</h1>
 
             </div>
-            <img src={phone} /><div></div>
-            <img src={digit} />
+            <img src={phone} alt="ph" /><div></div>
+            <img src={digit} alt="digit" />
 
             <div>
-                <h2>Request in the app</h2>
-                <h4>Set your delivery location, Choose your groceries from a wide range of 5000+ products.</h4>
+                <h3>Request in the app</h3>
+                <h5>Set your delivery location, Choose your groceries from a wide range of 5000+ products.</h5>
                 
             </div>
-            <img src={apple} />
-            <img src={google} className="google"/> <div></div>
+            <img src={apple} alt="apple" />
+            <img src={google} alt="google" className="google"/> <div></div>
             <div className="reverseflex">
-            <img src={schedule} className="schedule" /><div></div>
+            <img src={schedule} alt="schedule" className="schedule" /><div></div>
            
 
                 <div>
-                <img src={digit2} />
-                    <h2>It’s delivered and Rate us</h2>
-                    <h4>Collect groceries at your doorstep and tell us about our service</h4>
+                <img src={digit2} alt="di2" />
+                    <h3>It’s delivered and Rate us</h3>
+                    <h5>Collect groceries at your doorstep and tell us about our service</h5>
     
                 </div>
             </div>
             
            <div className="rateflex"> 
-           <img src={rate} className="rate" /><div></div>
+           <img src={rate} className="rate" alt="rate" /><div></div>
             
 
             <div className="ratetext">
-            <img src={digit3} />
-                <h2>It’s delivered and Rate us</h2>
-                <h4>Collect groceries at your doorstep and tell us about our service</h4>
+            <img src={digit3} alt="di3" />
+                <h3>It’s delivered and Rate us</h3>
+                <h5>Collect groceries at your doorstep and tell us about our service</h5>
                 
             </div>
            </div>

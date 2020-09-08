@@ -32,14 +32,15 @@ const exitMenu =(e)=>{
     </a>
     <ul className="show-desktop hide-mobile" id="nav">
       <li id="exit" className="exit-btn hide-desktop">
-        <img src={exit} alt="" onClick={exitMenu} />
+        <img src={exit} alt="exit" onClick={exitMenu} className="exit" />
       </li>
-    <li>
-        <a href="#projects">login</a>
+       <li>
+        <a href="#login">login</a>
       </li>
       <li>
-        <a href="#contact">signup</a>
+        <a href="#signup">signup</a>
       </li>
+   
     </ul>
   </div>
   

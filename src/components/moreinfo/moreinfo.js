@@ -12,23 +12,23 @@ function Moreinfo() {
             <div className="moreinfo">
             <div className="flex">
                 <div className="items">
-                <p className="safety">GroceryDeliveredSafetly</p>
+                <p className="safety">#GroceryDeliveredSafetly</p>
             <h1 className="hygene">Hygenically</h1>
             <h1 className="packed">packed,</h1>
-            <img src={button} className="button" />
+            <img src={button} alt="button" className="button" />
                 </div>
           
         
             
            
-           <img src={illustration} className="illustration" />
+           <img src={illustration} alt="illust" className="illustration" />
             </div>
             
             <div className="art">
 
-            <img src={one} />
-            <img src={two} className="two"/>
-            <img src={three} className="three" />
+            <img src={one} alt="one" />
+            <img src={two} alt="two" className="two"/>
+            <img src={three} alt="three" className="three" />
             </div>
             
 

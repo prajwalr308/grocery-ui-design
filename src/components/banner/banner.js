@@ -9,7 +9,7 @@ function Banner() {
         <div>
             <div className="banner">
              
-           <img src={bg} className="bg" />
+           <img src={bg} alt="bg" className="bg" />
           
            <h1 className="title">Stay Home  We’ll Deliver </h1>
            <p className="subtitle">Get your groceries delivered in less than an hour</p>
@@ -17,8 +17,8 @@ function Banner() {
            <input className="search" placeholder="Search for a location"></input>
            </div>
            
-           <img src={loc} className="location" />
-           <img src={loc2} className="location2" />
+           <img src={loc} alt="loc" className="location" />
+           <img src={loc2} alt="loc2" className="location2" />
 
            </div>
            

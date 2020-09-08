@@ -13,7 +13,7 @@
 }
 .nav ul {
   position: fixed;
-  width: 60%;
+  width: 40%;
   top: 0;
   right: 0;
   text-align: left;
@@ -78,11 +78,15 @@ font-size: 1.1em;
       display: flex;
       padding-top: 0;
     }
+    .exit{
+      display: none;
+    }
     .nav ul li {
-      float: left;
+      display: flex;
+
     }
     .nav ul li a {
-      font-size: 1.1em;
+      font-size: 0.8em;
       color:#3DC28F;
       background-color: inherit;
       text-align: left;
@@ -90,6 +94,13 @@ font-size: 1.1em;
     }
     .nav ul li a:hover {
       background-color: inherit;
+      border-radius: 30px;
+      background: #3DC28F;
+      color:white;
+      
+    
+    
+
       
     }
   

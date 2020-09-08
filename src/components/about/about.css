@@ -3,8 +3,15 @@
     text-align: center;
 
 }
+.about p {
+    font-size: 0.8em;
+    width:60%;
+    margin-left:20%
+}
 .roundbox{
-        margin-left:10%;
+        margin-top:10%;
+        margin-bottom: 5%;
+        margin-left:15%;
         border-radius: 25px;
         background:#FFE1A1;
         padding: 20px;
@@ -17,8 +24,9 @@
        display: flex;
    }
    .roundbox{
+       margin-left: 10%;
      
-    width: 800px;  
+    width: 80%;  
     height: 200px;
     display: flex;
     flex-direction: row-reverse;
@@ -28,8 +36,33 @@
    
     
 }
-.rtext h4{
+.rtext p{
     margin-left: 1%;
+    font-size: 0.8em;
     
 }
+}
+@media only screen and (min-width: 1050px) {
+    .rtext h4{
+        margin-left: -10%;
+        
+    }
+    .rtext p{
+        margin-left: -10%;
+        
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .rtext h4{
+        margin-left: -60%;
+        
+    }
+    .rtext p{
+        margin-left: -59%;
+        
+    }
+    .rtext img{
+        margin-left: -59%;
+    }
 }

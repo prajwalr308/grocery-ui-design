@@ -14,7 +14,7 @@ function Footer() {
         <div className="footer">
             <div className="footerflex">
             <div>
-            <img src={flogo} />
+            <img src={flogo} alt="flo" />
             <div> <a href="#"> Help Center </a></div>
             <div><a href="#">Engdivsh (International)</a></div>
             </div>
@@ -35,11 +35,11 @@ function Footer() {
            
         
         <img src={apple} />
-        <img src={google} className="g" /><div></div>
-        <img src={insta} className="i" />
-        <img src={facebook} className="f" />
-        <img src={twitter} className="t" />
-        <img src={you} className="y" />
+        <img src={google} alt="g" className="g" /><div></div>
+        <img src={insta} alt="i" className="i" />
+        <img src={facebook} alt="f" className="f" />
+        <img src={twitter} alt="t" className="t" />
+        <img src={you} alt="you" className="y" />
           </div>
 
             </div>
