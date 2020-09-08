@@ -1,5 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+<img src="./screenshots/mobile.PNG />
+<img src="./screenshots/navbar.png />          
 <img src="./screenshots/Capture.PNG" />
 
 ## Available Scripts
