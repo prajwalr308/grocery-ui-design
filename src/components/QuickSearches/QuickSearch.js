@@ -5,6 +5,7 @@ import vegetables from "./images/2_Vegetables & Fruits.png";
 import care from "./images/3_Personal Care.png";
 import home from "./images/4_Home & Kitchen.png";
 import bevarage from "./images/5_Beverages.png";
+import explore from './images/Button.png'
 
 
 function QuickSearch() {
@@ -22,6 +23,7 @@ function QuickSearch() {
             <img src={home} alt="h" className="home"/><div></div>
             <img src={bevarage} alt="b" className="bevarage" /><div></div>
             </div>
+            <img src={explore} className="explore" />
            
             
             
