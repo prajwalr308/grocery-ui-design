@@ -4,7 +4,8 @@
 }
 .menu {
   width: 25px;
-  margin: 3%  ;
+  margin: 7%  ;
+ 
   float: right;
 }
 
@@ -17,7 +18,7 @@
   top: 0;
   right: 0;
   text-align: left;
-  background: rgb(231, 231, 231);
+  background: #ffeabb;
   height: 100%;
   z-index: 7;
   padding-top: 3em;
@@ -33,7 +34,7 @@ font-size: 0.8em;
   display: block;
   width: 100%;
   padding: 1em 2em;
-  background: rgb(231, 231, 231);
+  background:  #ffeabb;
   
 }
 

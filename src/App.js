@@ -1,7 +1,7 @@
 
 import React from 'react';
 import './App.css';
-import ham from'./images/ham.svg';
+import ham from'./images/Shape.png';
 import exit from './images/exit.svg';
 import logo from './images/Logo.png'
 import Banner from './components/banner/banner';
