@@ -1,5 +1,5 @@
 
-<img src="./screenshots/mobile.PNG" style="width:40%" />
+<img src="./screenshots/mobile.PNG" style="width:20%" />
 <img src="./screenshots/navbar.png" />          
 <img src="./screenshots/Capture.PNG" />
 
