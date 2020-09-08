@@ -1,7 +1,4 @@
 
-<img src="./screenshots/mobile.PNG" style="width:200px" />
-<img src="./screenshots/navbar.png" />          
-<img src="./screenshots/Capture.PNG" />
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
